@@ -72,9 +72,3 @@ Module:
 users.module.ts: Configures user-related components and services.
 
 
-API
-The application retrieves user data from the following endpoints:
-
-Fetch User List: https://reqres.in/api/users?page={page}
-
-Fetch User Details: https://reqres.in/api/users/{id}
