@@ -1,0 +1,40 @@
+.Box{
+    background-color: rgb(231, 231, 231);
+    
+}
+.users{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    
+}
+
+.user{
+    cursor: pointer;
+    width: 28%;
+    padding: 10px;
+}
+
+
+.cardImage{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.nav{
+    justify-content: center;
+    align-items: center;
+}
+
+.user:hover{
+    transform: scale(1.03);
+    transition: .3s all;
+}
+
+@media (max-width: 767.98px) { 
+    .user{
+        width: 80%;
+    }
+}

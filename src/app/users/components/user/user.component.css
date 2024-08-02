@@ -1,0 +1,25 @@
+.box{
+    width: 90%;
+    margin: 40px auto;
+    height: 500px;
+}
+ul li{
+    font-size: 22px;
+    margin: 20px 0px;
+    list-style-type: none;
+}
+img{
+    width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+}
+strong{
+    color: #0b4d84;
+}
+li{
+    color: rgb(72, 72, 72);
+}
+.btnClose{
+    color: #0b4d84;
+    margin: 20px auto;
+}

@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.containerX{
+    background-color: red;
+    padding: 0;
+}
+.headerBox{
+    background-color: #0b4d84;
+    padding: 10px;
+    margin-top: 0;
+}
+.title{
+    color: white;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.subTitle{
+    font-size: 16px;
+}
+.subTitle a{
+    text-decoration: none;
+    color: rgb(131, 183, 225);
+}
+.searchBox{
+    width: 40%;
+}
+
+.searchLabel{
+    width: 100%;
+    padding: 2px;
+    /* background-color: red; */
+    color: white;
+    font-size: 18px;
+}
+
+@media (max-width: 767.98px) { 
+    .searchBox{
+        width: 100%;
+    }
+}

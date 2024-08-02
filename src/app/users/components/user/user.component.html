@@ -1,0 +1,21 @@
+<app-header></app-header>
+<div class="box">
+    <app-spinner *ngIf="!loading" style="text-align: center; color: #0b4d84;"></app-spinner>
+    <div class="row" *ngIf="loading">
+        <div data-bs-theme="light btnClose" routerLink="/allUsers">
+            <button type="button" class="btn-close btnClose" aria-label="Close"></button>
+
+        </div>
+        <div class="col-md-5 col-sm-12">
+            <img src="{{selectedUser.data.avatar}}" alt="{{selectedUser.data.first_name}}">
+        </div>
+        <div class="col-md-7 col-sm-12">
+            <div class="info">
+                <ul class="list unstyled">
+                    <li><strong>Name: </strong>{{selectedUser.data.first_name}} {{selectedUser.data.last_name}}</li>
+                    <li><strong>Email: </strong>{{selectedUser.data.email}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
