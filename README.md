@@ -28,4 +28,47 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 =======
 # User-Management
->>>>>>> 9a340e906bb309d6672ac7577fff30d0da1dccb6
+Features:
+
+Header Component: A fixed header that provides easy navigation and quick access to the main features of the application.
+
+Paginated User List: Displays users in a paginated format, fetching data dynamically from the API.
+
+User Details: Detailed view of user information, including avatar, first name, last name, and email.
+
+Search Functionality: Allows users to search through the entire user base efficiently.
+
+Spinner Component: Displays a loading spinner while fetching data, enhancing user experience.
+
+Caching Mechanism: Implements caching to avoid redundant HTTP requests and optimize performance.
+Project Structure
+
+
+Shared Module (module1):
+
+Components:
+spinner component: Displays a loading spinner.
+
+header component: Provides a consistent header for the application.
+
+Services:
+shared.service.ts: Contains shared logic and utilities.
+
+Module:
+shared.module.ts: Configures shared components and services.
+
+
+Users Module (module2):
+Components:
+all-users component: Displays the paginated list of all users.
+
+user component: Represents an individual user card.
+
+Services:
+
+user.service.ts: Manages API calls related to user data.
+
+Module:
+users.module.ts: Configures user-related components and services.
+
+
